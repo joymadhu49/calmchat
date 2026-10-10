@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calmchat privacy policy</title>
+<meta name="description" content="What the Calmchat Chrome extension does and does not do with your data.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <img src="icon.png" alt=""><b>Calmchat</b>
+  <nav><a href="./">Home</a><a href="https://github.com/joymadhu49/calmchat/issues">Support</a></nav>
+</div></header>
+<main><div class="wrap">
+  <h1>Privacy policy</h1>
+  <p class="meta">Last updated 10 October 2026. Applies to the Calmchat extension for Chrome.</p>
+
+  <div class="box">
+    <p><strong>The short version.</strong> Calmchat has no account, no analytics, no ads and no server of its own. The developer never receives anything about you or what you watch. The word filters run fully inside your browser. Only if you switch on the optional AI check is any chat text sent anywhere, and then it goes straight from your browser to OpenRouter using your own key.</p>
+  </div>
+
+  <h2>What Calmchat reads</h2>
+  <p>To decide which comments to hide, Calmchat reads the comments shown in the YouTube live chat you have open: the comment text, the author handle and the author channel ID. This happens in your browser's memory while the chat is open. It is not saved and not sent to the developer.</p>
+
+  <h2>What is stored on your device</h2>
+  <ul>
+    <li>Your settings: which filters are on, strict mode, remove or blur.</li>
+    <li>Your blocked words and allowed words.</li>
+    <li>Users you muted: their handle, channel ID and the date you muted them.</li>
+    <li>Your OpenRouter key, if you add one, and a simple daily count of AI checks.</li>
+  </ul>
+  <p>All of this is kept in Chrome's local extension storage on your computer. It is not synced to the developer and it is deleted when you remove the extension.</p>
+
+  <h2>The optional AI check</h2>
+  <p>The AI check is off by default. If you turn it on and add your own OpenRouter key:</p>
+  <ul>
+    <li>Comment text that the word filters did not catch is sent from your browser directly to OpenRouter (openrouter.ai), in small batches, to be judged by the AI model you chose.</li>
+    <li>Only the comment text is sent. Author handles, channel IDs, the stream you are watching and anything about you are not included.</li>
+    <li>Your key is sent only to OpenRouter, to authorise the request. The developer never sees it.</li>
+    <li>OpenRouter and the model provider handle that text under their own terms. Free models may keep or learn from what they receive. See the <a href="https://openrouter.ai/privacy">OpenRouter privacy policy</a>.</li>
+    <li>When you open the AI tab, Calmchat downloads the public list of free models from OpenRouter. No personal data is part of that request.</li>
+  </ul>
+  <p>Switch the AI check off and nothing is sent again.</p>
+
+  <h2>What Calmchat never does</h2>
+  <ul>
+    <li>It does not collect, sell or share personal data.</li>
+    <li>It does not track your browsing or the streams you watch.</li>
+    <li>It does not run on pages other than the YouTube live chat.</li>
+    <li>It does not post, like, report or change anything on YouTube. Hiding a comment only changes what you see.</li>
+    <li>It does not load or run code from the internet.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Storage</strong> keeps your settings, word lists, muted users and optional key on your device.</li>
+    <li><strong>Side panel</strong> lets you open the settings in Chrome's side panel.</li>
+    <li><strong>Access to youtube.com live chat pages</strong> is needed to read comments there and hide the ones you do not want to see.</li>
+  </ul>
+
+  <h2>Limited use</h2>
+  <p>The use of information received by Calmchat follows the Chrome Web Store User Data Policy, including the Limited Use requirements. Chat text is used only to provide the filtering you asked for.</p>
+
+  <h2>Children</h2>
+  <p>Calmchat is a general audience tool and does not knowingly collect information from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: open an issue at <a href="https://github.com/joymadhu49/calmchat/issues">github.com/joymadhu49/calmchat/issues</a> or message <a href="https://x.com/zx_joy_">@zx_joy_</a> on X.</p>
+</div></main>
+<footer><div class="wrap"><a href="./">Home</a><a href="https://github.com/joymadhu49/calmchat/issues">Support</a><span>Made by Joy Madhu</span></div></footer>
+</body>
+</html>
